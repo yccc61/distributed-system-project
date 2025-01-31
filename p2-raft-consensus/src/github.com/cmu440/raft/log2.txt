@@ -1,0 +1,1773 @@
+==================== 5 SERVERS ====================
+raDnVCqoJGOIhJILylGK23:27:45.141534 raft.go:370: logger initialized
+EBYJnu7X770bvHZsIfre23:27:45.142604 raft.go:370: logger initialized
+b7_3P1BhPTjJH-01cQdI23:27:45.142748 raft.go:370: logger initialized
+s0nG5UsTDQBAlM7r4TdJ23:27:45.142878 raft.go:370: logger initialized
+JLwi-3HV7Wbr_90j41Kq23:27:45.143006 raft.go:370: logger initialized
+Hidden Test (2A): election after network failure
+Basic 1 leader
+Election timeout, start to elect 0
+0 Become leader with term 1
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 1 1
+Receive heart beat in AE 3 with server and leader term 1 1
+Receive heart beat in AE 4 with server and leader term 1 1
+3 received heartbeat, current term and leader's term are 1 1
+Receive heart beat in AE 1 with server and leader term 1 1
+4 received heartbeat, current term and leader's term are 1 1
+2 received heartbeat, current term and leader's term are 1 1
+1 received heartbeat, current term and leader's term are 1 1
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 1 1
+Receive heart beat in AE 4 with server and leader term 1 1
+Receive heart beat in AE 3 with server and leader term 1 1
+Receive heart beat in AE 2 with server and leader term 1 1
+3 received heartbeat, current term and leader's term are 1 1
+2 received heartbeat, current term and leader's term are 1 1
+1 received heartbeat, current term and leader's term are 1 1
+4 received heartbeat, current term and leader's term are 1 1
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 1 1
+Receive heart beat in AE 3 with server and leader term 1 1
+Receive heart beat in AE 4 with server and leader term 1 1
+4 received heartbeat, current term and leader's term are 1 1
+Receive heart beat in AE 2 with server and leader term 1 1
+3 received heartbeat, current term and leader's term are 1 1
+1 received heartbeat, current term and leader's term are 1 1
+2 received heartbeat, current term and leader's term are 1 1
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 1 1
+Receive heart beat in AE 1 with server and leader term 1 1
+Receive heart beat in AE 2 with server and leader term 1 1
+4 received heartbeat, current term and leader's term are 1 1
+1 received heartbeat, current term and leader's term are 1 1
+2 received heartbeat, current term and leader's term are 1 1
+Receive heart beat in AE 3 with server and leader term 1 1
+3 received heartbeat, current term and leader's term are 1 1
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 1 1
+Receive heart beat in AE 2 with server and leader term 1 1
+Receive heart beat in AE 3 with server and leader term 1 1
+Receive heart beat in AE 4 with server and leader term 1 1
+2 received heartbeat, current term and leader's term are 1 1
+1 received heartbeat, current term and leader's term are 1 1
+4 received heartbeat, current term and leader's term are 1 1
+3 received heartbeat, current term and leader's term are 1 1
+Disconnecting leader
+Checking for a new leader
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Election timeout, start to elect 3
+3 Become leader with term 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Reconnecting old leader
+Waiting a bit
+Server 0  with status 1  is sending heartbeat to 1
+Server 0  with status 1  is sending heartbeat to 2
+Server 0  with status 1  is sending heartbeat to 3
+Server 0  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 1
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 1
+Receive heart beat in AE 2 with server and leader term 2 1
+Receive heart beat in AE 0 with server and leader term 1 2
+Receive heart beat in AE 3 with server and leader term 2 1
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Checking current leader
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 2 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 1 with server and leader term 2 2
+Receive heart beat in AE 4 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+4 received heartbeat, current term and leader's term are 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+Receive heart beat in AE 1 with server and leader term 2 2
+1 received heartbeat, current term and leader's term are 2 2
+4 received heartbeat, current term and leader's term are 2 2
+Receive heart beat in AE 2 with server and leader term 2 2
+2 received heartbeat, current term and leader's term are 2 2
+Server 3  with status 1  is sending heartbeat to 0
+Server 3  with status 1  is sending heartbeat to 1
+Server 3  with status 1  is sending heartbeat to 2
+Server 3  with status 1  is sending heartbeat to 4
+Receive heart beat in AE 4 with server and leader term 2 2
+signal: interrupt
+FAIL	github.com/cmu440/raft	18.340s
